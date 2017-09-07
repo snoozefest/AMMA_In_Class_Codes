@@ -71,11 +71,10 @@ dim(input.df)
 getwd()
 
 ## Reading data from Comma separated file (csv)
-input_csv.df <- read.csv(file="C:\\Ram\\R for Data Science\\data\\binary.csv")
+input_csv.df <- read.csv(file="/Users/sinu/MICA/Studies/Study Material/Term 4/AMMA/Data/data_2017/binary.csv")
 
-input_csv.df <- read.csv(file="C:\\Moksha\\MICA\\PGP2\\AMMA\\Data\\data_2017\\binary.csv")
 # reset directory and read file
-setwd("C:\\Ram\\R for Data Science\\data")
+setwd("/Users/sinu/MICA/Studies/Study Material/Term 4/AMMA/Data/data_2017")
 input_csv.df <- read.csv("binary.csv",header = T)
 
 getwd()
