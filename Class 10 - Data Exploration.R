@@ -4,7 +4,7 @@ install.packages("Rcmdr")
 library("Rcmdr")
 install.packages('rJava')
 
-setwd('C:/Users/RAJNEESH VISHNU/Desktop/MICA2017/Data')
+setwd('/Users/sinu/MICA/Studies/Study Material/Term 4/AMMA')
 
 #R imports and stores the data in a data frame called "dt"
 dt<-read.csv("train.csv")
