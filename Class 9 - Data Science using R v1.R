@@ -1,6 +1,6 @@
 # Set up working directory
 
-setwd("C:\\YYYYYY\\AMMA 2017\\Data\\data_2017")
+setwd("/Users/sinu/MICA/Studies/Study Material/Term 4/AMMA/Data/data_2017")
 
 # Read data
 card_balance<- read.csv(file = "card_balance.csv", stringsAsFactors = F)
